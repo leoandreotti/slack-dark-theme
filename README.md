@@ -5,9 +5,9 @@ Upgraded version of [slack-black-theme](https://github.com/widget-/slack-black-t
 
 Find your Slack's application directory.
 
-Windows: `%homepath%\AppData\Local\slack\`
-Mac: `/Applications/Slack.app/Contents/`
-Linux: `/usr/lib/slack/` (Debian-based)
+* Windows: `%homepath%\AppData\Local\slack\`
+* Mac: `/Applications/Slack.app/Contents/`
+* Linux: `/usr/lib/slack/` (Debian-based)
 
 Open up the most recent version (e.g. app-3.3.3) then open resources\app.asar.unpacked\src\static\ssb-interop.js
 
@@ -198,7 +198,7 @@ document.addEventListener("DOMContentLoaded", function() {
   });
 });
 ```
-#Custom Colors
+# Custom Colors
 
 You can edit the following lines in order to change most of the theme colors. NOTE: I haven't tested this changes after I've created my own css colors.
 
