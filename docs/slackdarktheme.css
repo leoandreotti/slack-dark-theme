@@ -981,3 +981,140 @@ ts-jumper, ts-jumper.active {
 ts-jumper ts-jumper-container {
   box-shadow: 0 5px 20px rgba(0,0,0,1);
 }
+
+/* CUSTOM CSS - BUG FIXES */
+
+div.c-message.c-message--light.c-message--hover,
+  .p-flexpane_header,
+  .p-shortcuts_flexpane__title,
+  .p-history_container,
+  .c-message_list__day_divider,
+  .c-message_list__day_divider__label,
+  .c-message_list__day_divider__label__pill,
+  .p-message_pane .c-message_list.c-virtual_list--scrollbar>.c-scrollbar__hider:before,
+  .p-message_pane .c-message_list:not(.c-virtual_list--scrollbar):before,
+  .c-keyboard_key {
+    color: #fff !important;
+    background-color: #222 !important;
+  }
+
+  .unread_group_header {
+    background-color: #222 !important;
+  }
+
+ 
+  .p-message_pane .p-message_pane__top_banners:not(:empty)+div .c-message_list.c-virtual_list--scrollbar>.c-scrollbar__hider:before,.p-message_pane .p-message_pane__top_banners:not(:empty)+div .c-message_list:not(.c-virtual_list--scrollbar):before{
+      box-shadow:0 32px #222;
+  }
+
+  .p-message_pane .c-message_list.c-virtual_list--scrollbar>.c-scrollbar__hider,.p-message_pane .c-message_list:not(.c-virtual_list--scrollbar){
+      background:#222;
+  }
+
+  span.c-message__body,
+  a.c-message__sender_link,
+  span.c-message_attachment__media_trigger.c-message_attachment__media_trigger--caption,
+  div.p-message_pane__foreword__description span,
+  .c-message_attachment,
+  .p-shortcuts_flexpane__shortcut_title {
+    color: #afafaf !important;
+  }
+
+  pre.special_formatting {
+    background-color: #222 !important;
+    color: #8f8f8f !important;
+    border: solid;
+    border-width: 1 px !important;
+  }
+
+  .c-message,
+  .c-virtual_list__item,
+  .c-member_slug--link {
+    background-color: #222 !important;
+  }
+
+  .c-menu {
+    background-color: #fff !important;
+  }
+
+  #client_body:not(.onboarding):not(.feature_global_nav_layout):before {
+  background-color: #222 !important;
+  border: 1px solid #222 !important;
+  box-shadow: none !important;
+  }
+
+  .ql-placeholder, .c-team__display-name, .c-unified_member__display-name, .c-usergroup__handle, .timezone_value, .timezone, .p-message_pane__foreword__description, .charcoal_grey, .sidebar_menu_list_item {
+    color: #ccc !important;
+  }
+
+  div[role=listitem]:first-child {
+    margin-bottom: 20px !important;
+  }
+
+  div[role="presentation"] { background-color: #282C34 !important; }
+
+  .c-menu_item__li {
+    background-color: #FFF !important;
+  }
+
+  .c-search__input_and_close{
+      background:#292d32!important;
+      color white !important;
+  }
+  .c-search__input_box{
+      background:#292d32!important;
+      color white !important;
+  }
+  .c-search__input_and_close{
+      background:#292d32!important;
+      color white !important;
+  }
+  .c-search_autocomplete{
+      background:#b7bcbe!important;
+      color white !important;
+  }
+  .c-search_autocomplete footer{
+      background:#97a0a5!important;
+      color white !important;
+  }
+  .c-search_autocomplete__suggestion_text{
+      color white !important;
+  }
+  .c-search_autocomplete__suggestion_content .c-search_autocomplete__suggestion_text{
+      color white !important;
+  }
+  .c-search_autocomplete header{
+      background:#b7bcbe!important;
+      color:black !important;
+  }
+  .c-search_autocomplete footer .c-search_autocomplete__footer_navigation_help{
+      color:white !important;
+  }
+  .c-search__input_box .c-search__input_box__input .ql-editor, .c-search__input_box .c-search__input_box__input .ql-placeholder{
+      background:#2b2c2e!important;
+      border:none !important;
+  }
+  .c-search__tabs{
+      background:#2b2c2e!important;
+  }
+  .c-search__view{
+      background:#2b2c2e!important;
+  }
+  .c-search_message__body{
+      color:#cacbcc !important;
+  }
+  .p-search_filter__title_text{
+      background:#2b2c2e!important;
+      color:white !important;
+  }
+  .p-search_filter__title:before{
+      color:grey !important;
+  }
+  .p-search_filter__dates{
+      background:#1f2021!important;
+      border: none !important;
+      color:#cacbcc !important;
+  }
+  .p-search_filter__datepicker_trigger:hover{
+      color:white !important;
+  }
