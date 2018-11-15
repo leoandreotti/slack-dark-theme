@@ -1074,7 +1074,7 @@ div.c-message.c-message--light.c-message--hover,
       color white !important;
   }
   .c-search_autocomplete footer{
-      background:#97a0a5!important;
+      background:#222!important;
       color white !important;
   }
   .c-search_autocomplete__suggestion_text{
@@ -1090,10 +1090,15 @@ div.c-message.c-message--light.c-message--hover,
   .c-search_autocomplete footer .c-search_autocomplete__footer_navigation_help{
       color:white !important;
   }
-  .c-search__input_box .c-search__input_box__input .ql-editor, .c-search__input_box .c-search__input_box__input .ql-placeholder .inline_message_input_container{
+  .c-search__input_box .c-search__input_box__input .ql-editor, .c-search__input_box .c-search__input_box__input .ql-placeholder{
       background:#222 !important;
       border:none !important;
   }
+
+  .inline_message_input_container{
+      background:#222!important;
+  }
+
   .c-search__tabs{
       background:#2b2c2e!important;
   }
