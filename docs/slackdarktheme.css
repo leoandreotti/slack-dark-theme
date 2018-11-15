@@ -1081,7 +1081,7 @@ div.c-message.c-message--light.c-message--hover,
       color white !important;
   }
   .c-search_autocomplete__suggestion_item{
-      color white !important;
+      color white;
   }
   .c-search_autocomplete__query_text{
   	 color white !important;
