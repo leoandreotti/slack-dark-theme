@@ -1090,7 +1090,7 @@ div.c-message.c-message--light.c-message--hover,
   .c-search_autocomplete footer .c-search_autocomplete__footer_navigation_help{
       color:white !important;
   }
-  .c-search__input_box .c-search__input_box__input .ql-editor, .c-search__input_box .c-search__input_box__input .ql-placeholder .message_input_texty_legacy{
+  .c-search__input_box .c-search__input_box__input .ql-editor, .c-search__input_box .c-search__input_box__input .ql-placeholder .inline_message_input_container{
       background:#222 !important;
       border:none !important;
   }
