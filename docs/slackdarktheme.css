@@ -1099,6 +1099,10 @@ div.c-message.c-message--light.c-message--hover,
       background:#222!important;
   }
 
+  .c-search_autocomplete{
+      background:#222!important;
+  }
+
   .c-search__tabs{
       background:#2b2c2e!important;
   }
