@@ -1070,7 +1070,7 @@ div.c-message.c-message--light.c-message--hover,
       color white !important;
   }
   .c-search_autocomplete{
-      background:#222;
+      background:#222 !important;
       color white;
   }
   .c-search_autocomplete footer{
