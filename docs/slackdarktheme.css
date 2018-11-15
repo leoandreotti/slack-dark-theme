@@ -1080,6 +1080,9 @@ div.c-message.c-message--light.c-message--hover,
   .c-search_autocomplete__suggestion_text{
       color white !important;
   }
+  .c-search_autocomplete__suggestion_item{
+      color white !important;
+  }
   .c-search_autocomplete__query_text{
   	 color white !important;
   }
