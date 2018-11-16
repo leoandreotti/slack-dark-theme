@@ -1047,7 +1047,7 @@ div.c-message.c-message--light.c-message--hover,
     color: #ccc !important;
   }
 
-  .channel_purpose_text{
+  .channel_purpose_text, .channel_link, .channel_push_notifs{
   	color: #ccc;
   }
 
