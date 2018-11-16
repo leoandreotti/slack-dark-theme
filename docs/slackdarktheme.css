@@ -1138,7 +1138,11 @@ div.c-message.c-message--light.c-message--hover,
       border:none !important;
   }
 
-  .inline_message_input_container{
+  .inline_message_input_container {
+      background:#222!important;
+  }
+
+	.tab_complete_ui_scroller {
       background:#222!important;
   }
 
