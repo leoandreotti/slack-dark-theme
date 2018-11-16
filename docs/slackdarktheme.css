@@ -1095,6 +1095,10 @@ div.c-message.c-message--light.c-message--hover,
   	color: #ccc !important;
   } 
 
+  .c-input_select {
+  	color: #ccc !important;
+  } 
+
   .cmdname {
   	color: #ccc !important;
   } 
