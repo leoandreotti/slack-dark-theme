@@ -1051,11 +1051,23 @@ div.c-message.c-message--light.c-message--hover,
   	color: #ccc;
   }
 
-  .channel_purpose_text{
+  .channel_link{
   	color: #ccc;
   }
 
-  .channel_purpose_text{
+  .creator_link{
+  	color: #ccc;
+  }
+
+  .p-channel_insights__highlights_description{
+  	color: #ccc;
+  }
+
+  .channel_push_notifs{
+  	color: #ccc;
+  }
+
+  .section_content pinned_items{
   	color: #ccc;
   }
 
