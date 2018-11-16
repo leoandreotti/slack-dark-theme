@@ -1047,28 +1047,28 @@ div.c-message.c-message--light.c-message--hover,
     color: #ccc !important;
   }
 
-  .channel_purpose_text{
-  	color: #ccc;
+  .channel_purpose_text {
+  	color: #ccc !important;
   }
 
-  .channel_link{
-  	color: #ccc;
+  .channel_link {
+  	color: #ccc !important;
   }
 
-  .creator_link{
-  	color: #ccc;
+  .creator_link {
+  	color: #ccc !important;
   }
 
-  .p-channel_insights__highlights_description{
-  	color: #ccc;
+  .p-channel_insights__highlights_description {
+  	color: #ccc !important;
   }
 
-  .channel_push_notifs{
-  	color: #ccc;
+  .channel_push_notifs {
+  	color: #ccc !important;
   }
 
-  .section_content{
-  	color: #ccc;
+  .section_content {
+  	color: #ccc !important;
   }
 
   div[role=listitem]:first-child {
