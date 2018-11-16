@@ -1047,6 +1047,10 @@ div.c-message.c-message--light.c-message--hover,
     color: #ccc !important;
   }
 
+  .channel_purpose_text{
+  	color: #ccc !important;
+  }
+
   div[role=listitem]:first-child {
     margin-bottom: 20px !important;
   }
