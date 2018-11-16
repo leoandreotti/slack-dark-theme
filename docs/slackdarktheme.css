@@ -1075,7 +1075,7 @@ div.c-message.c-message--light.c-message--hover,
   	color: #ccc !important;
   }
 
-  .channel_prefs__muting_checkbox_label {
+  .channel_prefs__muting_checkbox_label:not(.subtle_silver) {
   	color: #ccc !important;
   } 
 
