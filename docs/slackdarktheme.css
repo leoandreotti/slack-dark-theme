@@ -1083,6 +1083,10 @@ div.c-message.c-message--light.c-message--hover,
   	color: #ccc !important;
   } 
 
+  .channel_prefs_notifications_table {
+  	color: #ccc !important;
+  } 
+
   .channel_prefs_body__section_header_title {
   	color: #ccc !important;
   } 
