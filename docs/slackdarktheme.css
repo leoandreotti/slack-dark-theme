@@ -1075,7 +1075,15 @@ div.c-message.c-message--light.c-message--hover,
   	color: #ccc !important;
   }
 
-  .channel_prefs__muting_checkbox_label:not(.subtle_silver) {
+  .channel_prefs__muting_checkbox_label {
+  	color: #ccc !important;
+  } 
+
+  .channel_prefs_modal_footer__text {
+  	color: #ccc !important;
+  } 
+
+  .channel_prefs_body__section_header_title {
   	color: #ccc !important;
   } 
 
