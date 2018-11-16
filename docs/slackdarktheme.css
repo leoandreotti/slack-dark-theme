@@ -1048,7 +1048,7 @@ div.c-message.c-message--light.c-message--hover,
   }
 
   .channel_purpose_text{
-  	color: #ccc !important;
+  	color: #ccc;
   }
 
   div[role=listitem]:first-child {
