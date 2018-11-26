@@ -13,7 +13,7 @@ Open up the most recent version (e.g. app-3.3.3) then open resources\app.asar.un
 
 For versions before 3.0.0 the same code must be added to the following file resources\app.asar.unpacked\src\static\index.js
 
-At the very bottom, add the following code:
+At the very bottom, add the following code(to use the CSS stored in this repo and receive all my updates):
 
 ```js
 // First make sure the wrapper app is loaded
@@ -63,6 +63,34 @@ document.addEventListener("DOMContentLoaded", function() {
   });
 });
 ```
+If  you wish to use your own CSS file, clone this repo and use the following code:
+
+```
+document.addEventListener('DOMContentLoaded', function() {
+
+  var fs = require('fs'),
+  filePath = '/home/user/slack-dark-theme/docs/slackdarktheme.css';
+
+  fs.readFile(filePath, {encoding: 'utf-8'}, function(err, data) {
+
+  	let customCustomCSS = `
+		  :root {
+		    /* Modify these to change your theme colors: */
+		    --primary: #61AFEF;
+		    --text: #ABB2BF;
+		    --background: #282C34;
+		    --background-elevated: #3B4048;
+		  }
+		  `
+    if (!err) {
+      var css = document.createElement('style')
+      css.innerText = data+customCustomCSS;
+      document.getElementsByTagName('head')[0].appendChild(css);
+    }
+  })
+});
+```
+
 # Custom Colors
 
 You can edit the following lines in order to change most of the theme colors. NOTE: I haven't tested this changes after I've created my own css colors.
