@@ -65,7 +65,7 @@ document.addEventListener("DOMContentLoaded", function() {
 ```
 If  you wish to use your own CSS file, clone this repo and use the following code:
 
-```
+```js
 document.addEventListener('DOMContentLoaded', function() {
 
   var fs = require('fs'),
