@@ -996,8 +996,6 @@ div.c-message.c-message--light.c-message--hover,
   }
 
   .unread_group_header,
-  .p-message_pane .c-message_list.c-virtual_list--scrollbar>.c-scrollbar__hider,
-  .p-message_pane .c-message_list:not(.c-virtual_list--scrollbar),
   .c-message,
   .c-virtual_list__item,
   .c-member_slug--link,
@@ -1005,6 +1003,10 @@ div.c-message.c-message--light.c-message--hover,
 	.tab_complete_ui_scroller,
 	.c-search_autocomplete footer {
     background-color: #222 !important;
+  }
+
+	.p-message_pane .c-message_list.c-virtual_list--scrollbar>.c-scrollbar__hider,.p-message_pane .c-message_list:not(.c-virtual_list--scrollbar){
+      background:#222;
   }
 
   .p-message_pane .p-message_pane__top_banners:not(:empty)+div .c-message_list.c-virtual_list--scrollbar>.c-scrollbar__hider:before,.p-message_pane .p-message_pane__top_banners:not(:empty)+div .c-message_list:not(.c-virtual_list--scrollbar):before{
