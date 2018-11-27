@@ -15,12 +15,6 @@ limitations under the License.
 */
 
 :root {
-   /* Modify these to change your theme colors: */
-   --primary: #09F;
-   --text: #DDD;
-   --background: #111;
-   --background-elevated: #222;
-
    /* These should be less important: */
    --background-hover: rgba(255, 255, 255, 0.1);
    --background-light: #AAA;
@@ -64,7 +58,7 @@ div.client_channels_list_container {
 }
 
 nav.p-channel_sidebar {
-   background-color: var(--background-elevated);
+   background-color: #222;
    color: var(--text);
 }
 
@@ -993,22 +987,28 @@ div.c-message.c-message--light.c-message--hover,
   .c-message_list__day_divider__label__pill,
   .p-message_pane .c-message_list.c-virtual_list--scrollbar>.c-scrollbar__hider:before,
   .p-message_pane .c-message_list:not(.c-virtual_list--scrollbar):before,
-  .c-keyboard_key {
+  .c-keyboard_key,
+  .c-search_autocomplete,
+  .c-search__input_box .c-search__input_box__input .ql-editor,
+  .c-search__input_box .c-search__input_box__input .ql-placeholder {
     color: #fff !important;
     background-color: #222 !important;
   }
 
-  .unread_group_header {
+  .unread_group_header,
+  .p-message_pane .c-message_list.c-virtual_list--scrollbar>.c-scrollbar__hider,
+  .p-message_pane .c-message_list:not(.c-virtual_list--scrollbar),
+  .c-message,
+  .c-virtual_list__item,
+  .c-member_slug--link,
+  .inline_message_input_container,
+	.tab_complete_ui_scroller,
+	.c-search_autocomplete footer {
     background-color: #222 !important;
   }
 
- 
   .p-message_pane .p-message_pane__top_banners:not(:empty)+div .c-message_list.c-virtual_list--scrollbar>.c-scrollbar__hider:before,.p-message_pane .p-message_pane__top_banners:not(:empty)+div .c-message_list:not(.c-virtual_list--scrollbar):before{
       box-shadow:0 32px #222;
-  }
-
-  .p-message_pane .c-message_list.c-virtual_list--scrollbar>.c-scrollbar__hider,.p-message_pane .c-message_list:not(.c-virtual_list--scrollbar){
-      background:#222;
   }
 
   span.c-message__body,
@@ -1027,151 +1027,80 @@ div.c-message.c-message--light.c-message--hover,
     border-width: 1 px !important;
   }
 
-  .c-message,
-  .c-virtual_list__item,
-  .c-member_slug--link {
-    background-color: #222 !important;
-  }
-
   .c-menu {
     background-color: #fff !important;
   }
 
   #client_body:not(.onboarding):not(.feature_global_nav_layout):before {
-  background-color: #222 !important;
-  border: 1px solid #222 !important;
-  box-shadow: none !important;
+  	background-color: #222 !important;
+  	border: 1px solid #222 !important;
+  	box-shadow: none !important;
   }
 
-  .ql-placeholder, .c-team__display-name, .c-unified_member__display-name, .c-usergroup__handle, .timezone_value, .timezone, .p-message_pane__foreword__description, .charcoal_grey, .sidebar_menu_list_item {
+  .ql-placeholder, 
+  .c-team__display-name, 
+  .c-unified_member__display-name, 
+  .c-usergroup__handle, 
+  .timezone_value, .timezone, 
+  .p-message_pane__foreword__description, 
+  .charcoal_grey, 
+  .sidebar_menu_list_item,
+  .channel_purpose_text,
+  .channel_link,
+  .creator_link,
+  .p-channel_insights__highlights_description,
+  .channel_push_notifs,
+  .section_content,
+  .channel_prefs__muting_checkbox_label:not(.subtle_silver),
+  .c-input_select_options_list__option,
+  .channel_prefs_modal_footer__text,
+  .channel_prefs_notifications_table,
+  .channel_prefs_body__section_header_title,
+  .c-input_select,
+  .cmdname,
+  .tab_complete_ui_item,
+  #channel_prefs_dialog {
     color: #ccc !important;
   }
-
-  .channel_purpose_text {
-  	color: #ccc !important;
-  }
-
-  .channel_link {
-  	color: #ccc !important;
-  }
-
-  .creator_link {
-  	color: #ccc !important;
-  }
-
-  .p-channel_insights__highlights_description {
-  	color: #ccc !important;
-  }
-
-  .channel_push_notifs {
-  	color: #ccc !important;
-  }
-
-  .section_content {
-  	color: #ccc !important;
-  }
-
-  #channel_prefs_dialog {
-  	color: #ccc !important;
-  }
-
-  .channel_prefs__muting_checkbox_label:not(.subtle_silver) {
-  	color: #ccc !important;
-  } 
-
-  .c-input_select_options_list__option {
-  	color: #ccc !important;
-  } 
-
-  .channel_prefs_modal_footer__text {
-  	color: #ccc !important;
-  } 
-
-  .channel_prefs_notifications_table {
-  	color: #ccc !important;
-  } 
-
-  .channel_prefs_body__section_header_title {
-  	color: #ccc !important;
-  } 
-
-  .c-input_select {
-  	color: #ccc !important;
-  } 
-
-  .cmdname {
-  	color: #ccc !important;
-  } 
-
-  .tab_complete_ui_item {
-  	color: #ccc !important;
-  } 
 
   div[role=listitem]:first-child {
     margin-bottom: 20px !important;
   }
 
-  div[role="presentation"] { background-color: #282C34 !important; }
+  div[role="presentation"] { background-color: #222 !important; }
 
   .c-menu_item__li {
     background-color: #FFF !important;
   }
 
-  .c-search__input_and_close{
+  .c-search__input_and_close,
+  .c-search__input_box {
       background:#292d32!important;
       color: white !important;
   }
-  .c-search__input_box{
-      background:#292d32!important;
-      color: white !important;
-  }
-  .c-search__input_and_close{
-      background:#292d32!important;
-      color: white !important;
-  }
-  .c-search_autocomplete{
-      background:#222 !important;
-      color: white;
-  }
-  .c-search_autocomplete footer{
-      background:#222!important;
-      color: white !important;
-  }
-  .c-search_autocomplete__suggestion_item{
+
+  .c-search_autocomplete__suggestion_item,
+  .c-search_autocomplete__query_text,
+  .c-search_autocomplete__suggestion_content .c-search_autocomplete__suggestion_text,
+  .c-search_autocomplete footer, .c-search_autocomplete__footer_navigation_help,
+  .p-search_filter__datepicker_trigger:hover {
       color: #fff !important;
   }
-  .c-search_autocomplete__query_text{
-  	 color: white !important;
-  }
-  .c-search_autocomplete__suggestion_content .c-search_autocomplete__suggestion_text{
-      color: white !important;
-  }
+
   .c-search_autocomplete header{
       background:#b7bcbe!important;
       color:black !important;
   }
-  .c-search_autocomplete footer .c-search_autocomplete__footer_navigation_help{
-      color:white !important;
-  }
-  .c-search__input_box .c-search__input_box__input .ql-editor, .c-search__input_box .c-search__input_box__input .ql-placeholder{
-      background:#222 !important;
+
+  .c-search__input_box .c-search__input_box__input .ql-placeholder {
       border:none !important;
   }
 
-  .inline_message_input_container {
-      background:#222!important;
-  }
-
-	.tab_complete_ui_scroller {
-      background:#222!important;
-  }
-
-  .c-search__tabs{
+  .c-search__tabs,
+  .c-search__view {
       background:#2b2c2e!important;
   }
-  .c-search__view{
-      background:#2b2c2e!important;
-  }
+
   .c-search_message__body{
       color:#cacbcc !important;
   }
@@ -1186,7 +1115,4 @@ div.c-message.c-message--light.c-message--hover,
       background:#1f2021!important;
       border: none !important;
       color:#cacbcc !important;
-  }
-  .p-search_filter__datepicker_trigger:hover{
-      color:white !important;
   }
