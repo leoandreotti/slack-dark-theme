@@ -990,7 +990,9 @@ div.c-message.c-message--light.c-message--hover,
   .c-keyboard_key,
   .c-search_autocomplete,
   .c-search__input_box .c-search__input_box__input .ql-editor,
-  .c-search__input_box .c-search__input_box__input .ql-placeholder {
+  .c-search__input_box .c-search__input_box__input .ql-placeholder,
+  .c-fullscreen_modal__header,
+  .c-fullscreen_modal__body {
     color: #fff !important;
     background-color: #222 !important;
   }
@@ -1005,7 +1007,11 @@ div.c-message.c-message--light.c-message--hover,
     background-color: #222 !important;
   }
 
-	.p-message_pane .c-message_list.c-virtual_list--scrollbar>.c-scrollbar__hider,.p-message_pane .c-message_list:not(.c-virtual_list--scrollbar){
+  button.c-button-unstyled.channel_option_item:hover{
+  	background: #333333;
+  }
+
+  .p-message_pane .c-message_list.c-virtual_list--scrollbar>.c-scrollbar__hider,.p-message_pane .c-message_list:not(.c-virtual_list--scrollbar){
       background:#222;
   }
 
@@ -1061,7 +1067,9 @@ div.c-message.c-message--light.c-message--hover,
   .c-input_select,
   .cmdname,
   .tab_complete_ui_item,
-  #channel_prefs_dialog {
+  #channel_prefs_dialog,
+  .channel_option_item .title,
+  .channel_options_header {
     color: #ccc !important;
   }
 

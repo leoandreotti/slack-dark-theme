@@ -30,7 +30,7 @@ document.addEventListener("DOMContentLoaded", function() {
   :root {
     /* Modify these to change your theme colors: */
     --primary: #61AFEF;
-    --text: #ABB2BF;
+    --text: #CCC;
     --background: #222;
     --background-elevated: #222;
   }
@@ -77,7 +77,7 @@ document.addEventListener('DOMContentLoaded', function() {
 		  :root {
 		    /* Modify these to change your theme colors: */
 		    --primary: #61AFEF;
-		    --text: #ABB2BF;
+		    --text: #CCC;
 		    --background: #222;
 		    --background-elevated: #222;
 		  }
