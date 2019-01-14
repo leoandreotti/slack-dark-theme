@@ -199,6 +199,10 @@ li.active[class] span,
   border: 1px solid var(--scrollbar-border);
 }
 
+.c-scrollbar:hover .c-scrollbar__bar, .c-scrollbar__bar:active {
+	background-color: #ccc !important;
+}
+
 #channels_scroller.show_which_channel_is_active[class] li.active .presence.active i.presence_icon,
 #channels_scroller.show_which_channel_is_active[class] li.active .slackbot_icon,
 #channels_scroller.show_which_channel_is_active[class] li.active .presence.away i.presence_icon {
