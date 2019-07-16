@@ -1117,7 +1117,7 @@ color:#a4d677 !important
                                                                                             }
 .channel_header {
     display: flex;
-    background: #222222;}
+    background: #222222 !important;}
     
 .channel_title .channel_name {
 

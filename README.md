@@ -18,11 +18,9 @@ For Linux, you should use the following directory:
 
 * Linux: `/usr/lib/slack/` (Debian-based)
 
-For Windows I still don't have found an option since there is no more ssb-interop.bundle.js file. Once I find a solution I will update here.
+For Windows:
 
-#### Note for older Slack versions:
-
-I haven't tested the CSS for versions before 4.0. I recommend you to update your slack version.
+* Use 7-Zip with Asar plugin that can be found at [Asar7z](http://www.tc4shell.com/en/7zip/asar/) to extract and pack the app.asar file found at `%homepath%\AppData\Local\slack\app-4.0.0\resources\`
 
 ### Slack 3.0
 
