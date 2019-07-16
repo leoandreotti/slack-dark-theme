@@ -3,25 +3,29 @@ Upgraded version of [slack-black-theme](https://github.com/widget-/slack-black-t
 
 # Installation
 
-### Slack 4.0 for Mac
+### Slack 4.0
 
 The code below can be used with Slack version 4.0. For that please follow the next steps:
 
+#### For Mac and Linux
+
 - Install npx
-- Unpack the app.asar with the command `npx asar extract /Applications/Slack.app/Contents/Resources/app.asar /Applications/Slack.app/Contents/Resources/app.asar.unpacked`
-- Copy the code that you prefer(using external CSS or using local CSS) to the end of the file at `/Applications/Slack.app/Contents/Resources/app.asar.unpacked/dist/ssb-interop.bundle.js`
-- Pack the app.asar with the command `npx asar pack /Applications/Slack.app/Contents/Resources/app.asar.unpacked /Applications/Slack.app/Contents/Resources/app.asar`
+- Unpack the app.asar with the command `npx asar extract YOURAPPDIRECTORY/Contents/Resources/app.asar /Applications/Slack.app/Contents/Resources/app.asar.unpacked`
+- Copy the code that you prefer(using external CSS or using local CSS) to the end of the file at `YOURAPPDIRECTORY/Contents/Resources/app.asar.unpacked/dist/ssb-interop.bundle.js`
+- Pack the app.asar with the command `npx asar pack YOURAPPDIRECTORY/Contents/Resources/app.asar.unpacked YOURAPPDIRECTORY/Contents/Resources/app.asar`
 
-#### Note for Linux and Windows Users:
+You should use the following app directory:
 
-For Linux, you should use the following directory:
-
+* Mac: `/Applications/Slack.app/`
 * Linux: `/usr/lib/slack/` (Debian-based)
 
 For Windows:
 
 * Use 7-Zip with Asar plugin that can be found at [Asar7z](http://www.tc4shell.com/en/7zip/asar/) to extract and pack the app.asar file found at `%homepath%\AppData\Local\slack\app-4.0.0\resources\`
-* There is a known issue with the app Header style that I am still trying to solve. The theme is usable with this instructions.
+
+#### Important Note:
+
+Please use Help -> Troubleshoot -> Reset Slack to have the theme fully applied. Since it is a main version change, the Clear Cache and Restart option didn't made the magic.
 
 ### Slack 3.0
 
