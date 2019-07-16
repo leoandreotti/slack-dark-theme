@@ -21,6 +21,7 @@ For Linux, you should use the following directory:
 For Windows:
 
 * Use 7-Zip with Asar plugin that can be found at [Asar7z](http://www.tc4shell.com/en/7zip/asar/) to extract and pack the app.asar file found at `%homepath%\AppData\Local\slack\app-4.0.0\resources\`
+* There is a known issue with the app Header style that I am still trying to solve. The theme is usable with this instructions.
 
 ### Slack 3.0
 
