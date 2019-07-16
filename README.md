@@ -1,7 +1,22 @@
 # Slack Dark Theme
 Upgraded version of [slack-black-theme](https://github.com/widget-/slack-black-theme)
 
-# Instalation
+# Installation
+
+### Slack 4.0
+
+The code below can be used with Slack version 4.0. For that please follow the next steps:
+
+- Install npx
+- Unpack the app.asar with the command `npx asar extract /Applications/Slack.app/Contents/resources/app.asar /Applications/Slack.app/Contents/Resources/app.asar.unpacked`
+- Copy the code that you prefer(using external CSS or using local CSS) to the end of the file at `/Applications/Slack.app/Contents/Resources/app.asar.unpacked/dist/ssb-interop.bundle.js`
+- Pack the app.asar with the command `npx asar pack /Applications/Slack.app/Contents/resources/app.asar /Applications/Slack.app/Contents/Resources/app.asar.unpacked`
+
+#### Note for older Slack versions:
+
+I haven't tested the CSS for versions before 4.0. I recommend you to update your slack version.
+
+### Slack 3.0
 
 Find your Slack's application directory.
 
@@ -11,7 +26,7 @@ Find your Slack's application directory.
 
 Open up the most recent version (e.g. app-3.3.3) then open resources\app.asar.unpacked\src\static\ssb-interop.js
 
-For versions before 3.0.0 the same code must be added to the following file resources\app.asar.unpacked\src\static\index.js
+For versions before 3.0.0, the same code must be added to the following file resources\app.asar.unpacked\src\static\index.js
 
 At the very bottom, add the following code(to use the CSS stored in this repo and receive all my updates):
 
