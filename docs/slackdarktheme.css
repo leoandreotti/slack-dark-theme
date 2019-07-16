@@ -93,10 +93,10 @@ div.c-virtual_list__scroll_container {
     border-left: 1px solid #303030;
 }
 
-#col_messages,
 #client_header {
     background-color: #222;
     border-left: 1px solid #303030;
+    box-shadow: inset 1px 0 0 0 #000;
 }
 
 #team_menu,
@@ -1341,10 +1341,6 @@ a.c-message__sender_link {
     color: #969696;
 }
 
-.channel_title .channel_name {
-    font-weight: bold !important;
-}
-
 .p-threads_flexpane__header .p-flexpane_header__children {
     font-weight: 700;
 }
@@ -1504,10 +1500,15 @@ textarea.c-input_textarea.c-input_textarea--with_hint {
 .channel_header {
     display: flex;
     background: #222222 !important;
+    box-shadow: inset 1px 0 0 0 #000;
+}
+
+.channel_header .blue_on_hover:hover {
+    color: #ffffff;
 }
 
 .channel_title .channel_name {
-
+    font-weight: bold !important;
     color: #ffffff;
 }
 
@@ -1636,10 +1637,6 @@ h4 {
     opacity: 1;
 }
 
-#col_messages {
-    box-shadow: inset 1px 0 0 0 #000;
-}
-
 .flex_pane_showing #col_flex {
     border-left: 1px solid #000;
     box-shadow: inset 1px 0 0 0 #000;
@@ -1723,10 +1720,6 @@ code {
 
 .channel_header_info_item.channel_header_member_status #header_status_message {
     color: white;
-}
-
-.channel_header {
-    box-shadow: inset 1px 0 0 0 #000;
 }
 
 .p-channel_insights .c-unified_member__title {
@@ -1882,10 +1875,6 @@ pre {
     color: white;
 }
 
-.channel_header .blue_on_hover:hover {
-    color: #ffffff;
-}
-
 .menu {
     background: #414141;
 }
@@ -1914,10 +1903,6 @@ pre {
 }
 
 .channel_header_info button {
-    color: white;
-}
-
-.channel_header .blue_on_hover:hover {
     color: white;
 }
 
@@ -2426,10 +2411,6 @@ c-keyboard_key {
     -ms-user-select: text;
     user-select: text;
     background: #222222;
-}
-
-#col_messages {
-    box-shadow: inset 1px 0 0 0 #000 !important;
 }
 
 .tab_container .star_item .message .star_jump.msg_right_link,
