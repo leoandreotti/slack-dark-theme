@@ -19,7 +19,7 @@ You should use the following app directory:
 * Mac: `/Applications/Slack.app/`
 * Linux: `/usr/lib/slack/` (Debian-based)
 
-For Windows:
+#### For Windows:
 
 * Use 7-Zip with Asar plugin that can be found at [Asar7z](http://www.tc4shell.com/en/7zip/asar/) to extract and pack the app.asar file found at `%homepath%\AppData\Local\slack\app-4.0.0\resources\`
 
