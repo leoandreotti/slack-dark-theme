@@ -10,7 +10,7 @@ The code below can be used with Slack version 4.0. For that please follow the ne
 - Install npx
 - Unpack the app.asar with the command `npx asar extract /Applications/Slack.app/Contents/resources/app.asar /Applications/Slack.app/Contents/Resources/app.asar.unpacked`
 - Copy the code that you prefer(using external CSS or using local CSS) to the end of the file at `/Applications/Slack.app/Contents/Resources/app.asar.unpacked/dist/ssb-interop.bundle.js`
-- Pack the app.asar with the command `npx asar pack /Applications/Slack.app/Contents/resources/app.asar /Applications/Slack.app/Contents/Resources/app.asar.unpacked`
+- Pack the app.asar with the command `npx asar pack /Applications/Slack.app/Contents/resources/app.asar.unpacked /Applications/Slack.app/Contents/Resources/app.asar`
 
 #### Note for Linux and Windows Users:
 
