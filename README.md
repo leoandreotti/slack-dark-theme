@@ -100,3 +100,5 @@ document.addEventListener('DOMContentLoaded', function() {
 ```
 
 # LICENSE
+
+MIT
