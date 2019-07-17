@@ -53,21 +53,11 @@ document.addEventListener("DOMContentLoaded", function() {
   const cssPath = 'https://leoandreotti.github.io/slack-dark-theme/slackdarktheme.css';
   let cssPromise = fetch(cssPath).then(response => response.text());
 
-  let customCustomCSS = `
-  :root {
-    /* Modify these to change your theme colors: */
-    --primary: #61AFEF;
-    --text: #CCC;
-    --background: #222;
-    --background-elevated: #222;
-  }
-  `
-
   // Insert a style tag into the wrapper view
   cssPromise.then(css => {
     let s = document.createElement('style');
     s.type = 'text/css';
-    s.innerHTML = css + customCustomCSS;
+    s.innerHTML = css;
     document.head.appendChild(s);
   });
 
@@ -81,7 +71,7 @@ document.addEventListener("DOMContentLoaded", function() {
                     let s = document.createElement('style');
                     s.type = 'text/css';
                     s.id = 'slack-custom-css';
-                    s.innerHTML = \`${css + customCustomCSS}\`;
+                    s.innerHTML = \`${css}\`;
                     document.head.appendChild(s);
                     `
               webview.executeJavaScript(script);
@@ -100,32 +90,11 @@ document.addEventListener('DOMContentLoaded', function() {
 
   fs.readFile(filePath, {encoding: 'utf-8'}, function(err, data) {
 
-  	let customCustomCSS = `
-		  :root {
-		    /* Modify these to change your theme colors: */
-		    --primary: #61AFEF;
-		    --text: #CCC;
-		    --background: #222;
-		    --background-elevated: #222;
-		  }
-		  `
-    if (!err) {
+  	if (!err) {
       var css = document.createElement('style')
-      css.innerText = data+customCustomCSS;
+      css.innerText = data;
       document.getElementsByTagName('head')[0].appendChild(css);
     }
   })
 });
-```
-
-# Custom Colors
-
-You can edit the following lines in order to change most of the theme colors. NOTE: I haven't tested this changes after I've created my own css colors.
-
-```js
-/* Modify these to change your theme colors: */
-    --primary: #61AFEF;
-    --text: #ABB2BF;
-    --background: #222;
-    --background-elevated: #222;
 ```
