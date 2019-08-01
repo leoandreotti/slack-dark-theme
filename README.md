@@ -24,6 +24,8 @@ You should use the following app directory:
 * Use 7-Zip with Asar plugin that can be found at [Asar7z](http://www.tc4shell.com/en/7zip/asar/) to extract and pack the app.asar file found at `%homepath%\AppData\Local\slack\app-4.0.0\resources\`
 * Copy the code that you prefer(using external CSS or using local CSS) to the end of the file at `%homepath%\AppData\Local\slack\app-4.0.0\resources\app.asar.unpacked\dist\ssb-interop.bundle.js`
 
+** For detailed instructions on the Windows procedure, please check [this post](https://github.com/leoandreotti/slack-dark-theme/issues/16)
+
 #### Important Note:
 
 Please use Help -> Troubleshoot -> Reset Slack to have the theme fully applied. Since it is a main version change, the Clear Cache and Restart option didn't made the magic.
