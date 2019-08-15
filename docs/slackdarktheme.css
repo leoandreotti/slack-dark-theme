@@ -3239,7 +3239,7 @@ div.p-message_pane__foreword__description span {
     letter-spacing: -0.3px !important;
 }
 
-.p-workspace--classic-nav .p-workspace__primary_view_footer {
+.workspace__primary_view_footer .p-workspace--classic-nav .p-workspace__primary_view_footer {
     background: #222222 !important;
 }
 
